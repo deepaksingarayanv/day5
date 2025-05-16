@@ -1,0 +1,72 @@
+# day5
+#pgm1
+//odd or even with if
+#include <stdio.h>
+
+int main() {
+    int a;
+    
+    scanf("%d",&a);
+    
+    if (a%2==0)
+    {
+        printf("YES");
+    }
+    else{
+        printf("NO");
+    }
+    return 0;
+}
+#pgm2
+#include <stdio.h>
+
+int main() {
+
+   int start,end;
+    scanf("%d %d",&start,&end);
+    int i=start;
+    while(i<=end)
+    {
+        if(i%2==0)
+        {
+            printf("%d ",i);
+        }
+        i++;
+    }/* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+#pgm3
+#include <stdio.h>
+
+int main() {
+
+    int end;
+    scanf("%d",&end);
+    int i=1;
+    while(i<=end)
+    {
+        printf("%d ",i);
+        i++;
+    }/* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+#pgm4
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+   int end,i;
+    scanf("%d",&end);
+    for(i=1;i <= end;i++)
+    {
+        if(i%2!=0)
+        {
+            printf("%d ",i);
+        }
+    }/* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+
